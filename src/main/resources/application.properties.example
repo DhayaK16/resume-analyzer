@@ -1,8 +1,8 @@
 spring.application.name=resume-analyzer
-spring.datasource.url=jdbc:postgresql://localhost:5432/resume_analyzer_db
-spring.datasource.username=postgres
-spring.datasource.password=YOUR_DB_PASSWORD_HERE
+spring.datasource.url=jdbc:postgresql://ep-small-wind-b3argqnd-pooler.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+spring.datasource.username=neondb_owner
+spring.datasource.password=PASTE_ONLY_THE_PASSWORD_PART_HERE
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-gemini.api.key=YOUR_GEMINI_API_KEY_HERE
-jwt.secret=YOUR_JWT_SECRET_KEY_HERE
+gemini.api.key=your_real_gemini_key
+jwt.secret=your_real_jwt_secret
